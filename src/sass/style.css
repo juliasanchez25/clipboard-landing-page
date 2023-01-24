@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  text-align: center;
+}
+
+p {
+  color: hsl(201deg, 11%, 66%);
+  max-width: 620px;
+  word-wrap: break-word;
+  line-height: 2rem;
+}
+
+.visit-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/img/bg-header-mobile.png");
+  background-size: cover;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+}
+.visit-card-container img {
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+}
+.visit-card-container h1 {
+  margin-bottom: 2vh;
+}
+.visit-card-container p {
+  text-align: center;
+}
+.visit-card-container__buttons {
+  display: inline-block;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.button-ios,
+.button-mac {
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  height: 55px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button-ios {
+  background-color: hsl(171deg, 66%, 44%);
+  box-shadow: 0px 3px 1px hsl(171deg, 67%, 35%);
+  margin-bottom: 20px;
+}
+
+.button-mac {
+  background-color: hsl(233deg, 100%, 69%);
+  box-shadow: 0px 3px 1px hsl(233deg, 63%, 58%);
+}
+
+.button-ios:hover,
+.button-mac:hover {
+  opacity: 0.8;
+}
+
+.clipboard-description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.clipboard-description-container h1 {
+  margin-top: 15vh;
+  font-size: 1.9rem;
+}
+.clipboard-description-container p {
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+.clipboard-description-container img {
+  max-width: 100%;
+  margin-bottom: 5vh;
+}
+.clipboard-description-container__items {
+  margin-bottom: 10vh;
+}
+.clipboard-description-container__items h1 {
+  margin-top: 20px;
+}
+.clipboard-description-container__items p {
+  margin-bottom: 60px;
+}
+
+.clipboard-access-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.clipboard-access-container h1 {
+  margin-top: 8vh;
+  font-size: 1.9rem;
+}
+.clipboard-access-container p {
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+.clipboard-access-container img {
+  max-width: 100%;
+  margin-bottom: 8vh;
+}/*# sourceMappingURL=style.css.map */
