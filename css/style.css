@@ -24,18 +24,23 @@ header {
     padding: 20px;
 }
 
-header h1 {
+header h1, section h1 {
     font-weight: 600;
     color: hsl(210, 10%, 33%);
+    text-align: center;
     margin-top: 5vh;
     margin-bottom: 2vh;
 }
 
-header p {
+header p, section p {
     color: hsl(201, 11%, 66%);
-    max-width: 500px;
+    text-align: center;
+}
+
+header p {
     margin-bottom: 5vh;
 }
+
 
 .btn-header-area {
     display: inline-block;
@@ -67,4 +72,105 @@ header p {
 
 .btn-ios:hover, .btn-mac:hover {
     opacity: .8;
+}
+
+section {
+    padding: 20px;
+}
+
+.section-main-title {
+    font-size: 2rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-p-section {
+    margin-bottom: 4.5vh;
+}
+
+.p-section {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.section-svg-icons {
+    left: 40%;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 0 auto;
+    gap: 2vh;
+}
+
+.btn-download-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 15px;
+}
+
+footer ul li {
+    margin-bottom: 2vh;
+}
+
+.footer-logo {
+    left: 25%;
+}
+
+.social-media-logos {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+@media (min-width: 1200px) and (max-width:1440px) {
+
+    .keep-track-section {
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    .keep-track-section .main-p-section{
+        padding: 0 190px;
+    }
+
+    .keep-track-items img {
+        float: left;
+        margin: 0px 10px 10px 0;
+    }
+
+    .section-access-clipboard {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15vh;
+    }
+
+    .section-access-clipboard img {
+
+    }
 }
