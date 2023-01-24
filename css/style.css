@@ -42,7 +42,7 @@ header p {
 }
 
 
-.btn-header-area {
+.btn-header-area, .btn-download-area  {
     display: inline-block;
     justify-content: space-between;
 }
@@ -96,24 +96,32 @@ section img {
     margin-bottom: -15px;
 }
 
+.supercharge-section-items {
+    text-align: center;
+}
+
 .section-svg-icons {
-    left: 40%;
+    margin: 0 auto;  
 }
 
-.social-logos {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    max-width: 30%;
-    margin: 0 auto;
-    gap: 2vh;
-}
-
-.btn-download-area {
+.clipboard-section, .interprise-logos-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.interprise-logos-section {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.interprise-logos-section img {
+    margin-left: 25px;
+}
+
+
+.btn-download-area {
     margin-top: 2vh;
     margin-bottom: 10vh;
 }
@@ -133,8 +141,11 @@ footer ul li {
     margin-bottom: 2vh;
 }
 
-.footer-logo {
-    left: 25%;
+.footer-logo img {
+    margin: 0 auto;
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .social-media-logos {
@@ -147,30 +158,31 @@ footer ul li {
     margin-right: 15px;
 }
 
-@media (min-width: 1200px) and (max-width:1440px) {
+@media (min-width: 990px) and (max-width:1440px) {
 
     .keep-track-section {
         display: inline-block;
         justify-content: space-between;
-    }
-
-    .keep-track-section .main-p-section{
-        padding: 0 190px;
+        flex-direction: row;
     }
 
     .keep-track-items img {
         float: left;
-        margin: 0px 10px 10px 0;
     }
 
+    .keep-track-text {
+        text-align: left;
+    }
+    
     .section-access-clipboard {
-        display: inline;
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 15vh;
+        flex-direction: column;
     }
 
-    .section-access-clipboard img {
-
+    footer {
+        display: inline-block;
+        justify-content: space-between;
     }
 }
