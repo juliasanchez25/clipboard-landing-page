@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/bg-header-desktop.png');
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+header p {
+    color: hsl(201, 11%, 66%);
+    max-width: 500px;
+    margin-bottom: 5vh;
+}
+
+.btn-header-area {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.btn-ios, .btn-mac {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffff;
+    border: none;
+    border-radius: 50px;
+    width: 290px;
+    height: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px 1px hsl(171, 67%, 35%);
+    margin-bottom: 20px;
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 1px hsl(233, 63%, 58%);
+}
+
+.btn-ios:hover, .btn-mac:hover {
+    opacity: .8;
+}
